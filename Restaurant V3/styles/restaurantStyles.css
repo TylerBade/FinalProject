@@ -1,0 +1,65 @@
+header,footer {
+	background-color: #ee9a00;
+	margin: 0px;
+}
+
+h1,h2 {
+	font-family: "Georgia", serif;
+}
+
+body {
+	background-color: lightblue;
+}
+
+hr {
+	border-color: red;
+}
+
+header, footer, body {
+	text-align: center;
+}
+
+nav {
+	text-align: left;
+}
+
+nav .btn {
+	background-color: orange;
+	color: blue;
+}
+
+nav .btn:hover {
+	font-weight: bold;
+}
+
+.carousel-item {
+	background: #333;
+	text-align: center;
+	height: 100px;
+	color: orange;
+}
+
+.item:active {
+	display: block;
+}
+
+.carousel-indicators {
+	bottom: 0;
+}
+
+.center_div {
+	margin:0 auto;
+	width: 80%;
+}
+
+.panel-title {
+	background-color: orange;
+	color: black;
+	border: thin solid white;
+}
+
+.panel-body {
+	background-color: lightgray;
+	color: black;
+	border: thin solid white;
+}
